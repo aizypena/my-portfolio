@@ -1,0 +1,80 @@
+.home-container {
+    padding: 2% 5%;
+}
+
+.home-myName {
+    font-family: "Playfair Display";
+}
+
+.cards {
+    width: 50%;
+}
+
+.home-webDev {
+    letter-spacing: 3px;
+}
+
+.home-seeMore {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-seeMore:hover {
+    text-decoration: underline;
+}
+
+@keyframes moveArrow {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(25px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.home-Arrow {
+    animation: moveArrow 1.3s ease-in-out infinite;
+}
+
+.home-Icons {
+    width: 25%;
+}
+
+.home-LinkIcons {
+    color: inherit;
+}
+
+.home-githubLink:hover {
+    color: #2b3137;
+}
+
+.home-fbLink:hover {
+    color: #4267b2;
+}
+
+.home-linkedinLink:hover {
+    color: #0a66c2;
+}
+
+.home-Pic1 {
+    width: 95%;
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .home-Pic1 {
+        width: 100%;
+    }
+}

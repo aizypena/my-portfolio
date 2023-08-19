@@ -1,0 +1,23 @@
+body {
+    font-family: Poppins;
+}
+
+.about-container {
+    padding: 2% 5%;
+}
+
+.about-mainContainer {
+    margin: 5% 0;
+}
+
+.about-section1 {
+    margin: 0 3%;
+}
+
+.about-about {
+    font-family: "Playfair Display";
+}
+
+.about-aboutDescription1 {
+    width: 100%;
+}

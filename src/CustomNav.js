@@ -13,15 +13,17 @@ function CustomNav() {
             >
                 <Container>
                     <Navbar.Brand>
-                        <Nav.Link></Nav.Link>
+                        <Nav.Link>
+                            <p className="display-6 playFair fw-bold">JULYZA</p>
+                        </Nav.Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link>ABOUT</Nav.Link>
-                            <Nav.Link>PROJECTS</Nav.Link>
-                            <Nav.Link>CONTACT</Nav.Link>
-                            <Nav.Link>RESUME</Nav.Link>
+                            <Nav.Link href={"#about"}>ABOUT</Nav.Link>
+                            <Nav.Link href={"#projects"}>PROJECTS</Nav.Link>
+                            <Nav.Link href={"#contact"}>CONTACT</Nav.Link>
+                            <Nav.Link href={"#"}>RESUME</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
