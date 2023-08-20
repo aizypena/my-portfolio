@@ -2,10 +2,15 @@
     padding: 5% 1.5%;
 }
 
-.projects-container {
-    margin: 0 5%;
+.projects-container,
+.projects-picContainer {
+    padding: 0 5%;
 }
 
 .projects-h1 {
     font-family: "Playfair Display";
+}
+
+.projects-allPics {
+    width: 70vh;
 }

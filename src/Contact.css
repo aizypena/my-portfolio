@@ -1,0 +1,16 @@
+.contact-mainContainer {
+    padding: 5% 1.5%;
+}
+
+.contact-container {
+    padding: 0 4%;
+}
+
+.contact-contact {
+    font-family: "Playfair Display";
+}
+
+.hello-btn {
+    border: none;
+    border-radius: 0;
+}
