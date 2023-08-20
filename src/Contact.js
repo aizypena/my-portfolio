@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import { Button } from "react-bootstrap";
 
 function Contact(props) {
     return (
@@ -15,8 +14,13 @@ function Contact(props) {
                         Whether you have an idea for a project or just want to
                         chat, feel free to shoot me an email!
                     </p>
-                    <a href="mailto: jbpena101@gmail.com">
-                        <Button className="hello-btn">Say Hello</Button>
+                    <a
+                        href="mailto: jbpena101@gmail.com"
+                        className="contact-mail"
+                    >
+                        <button className="hello-btn d-flex">
+                            <h6 className="h6-hello m-0">Say Hello</h6>
+                        </button>
                     </a>
                 </div>
             </div>

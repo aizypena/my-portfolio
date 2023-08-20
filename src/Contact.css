@@ -10,7 +10,10 @@
     font-family: "Playfair Display";
 }
 
+.contact-mail {
+    text-decoration: none;
+}
+
 .hello-btn {
-    border: none;
-    border-radius: 0;
+    padding: 1% 3%;
 }
