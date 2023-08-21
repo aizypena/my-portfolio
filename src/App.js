@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact"
+import Footer from "./Footer"
 
 function App() {
     return (
@@ -23,7 +24,9 @@ function App() {
             <section id="contact" className="contact container">
                 <Contact/>
             </section>
-            <footer></footer>
+            <footer>
+                <Footer/>
+            </footer>
         </div>
     );
 }

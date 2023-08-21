@@ -23,7 +23,7 @@ function CustomNav() {
                             <Nav.Link href={"#about"}>ABOUT</Nav.Link>
                             <Nav.Link href={"#projects"}>PROJECTS</Nav.Link>
                             <Nav.Link href={"#contact"}>CONTACT</Nav.Link>
-                            <Nav.Link href={"#"}>RESUME</Nav.Link>
+                            <Nav.Link href={"./MyResume.pdf"} download={"MyResume.pdf"}>RESUME</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
